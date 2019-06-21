@@ -1,0 +1,4 @@
+const UNSPLASH_API_KEY =
+  "750f079b913e330f45cf7b4f194f330ce57832177cc810c7d8cb01f9d7427aaa";
+
+module.exports = {UNSPLASH_API_KEY};
