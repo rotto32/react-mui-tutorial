@@ -8,7 +8,7 @@ const NavBar = () => {
     <div>
       <AppBar position="static">
         <Toolbar>
-          <Typography color="inherit">
+          <Typography color="inherit" component="h1">
             REACT MUI TUTORIAL
           </Typography>
         </Toolbar>

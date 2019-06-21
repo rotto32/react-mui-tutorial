@@ -3,17 +3,15 @@ import Grid from '@material-ui/core/Grid';
 import TextField from '@material-ui/core/TextField';
 import * as contentful from 'contentful';
 import Course from './Course';
-const {UNSPLASH_API_KEY} = require('../Keys/unsplashApiKeys');
-const axios = require('axios');
 
 
-// const SPACE_ID = 'e8drzbikyrej';
-// const ACCESS_TOKEN = '4e816bc09519ff8d67b0c20d95a0b2c6825d6b91d7e689c10254d0ed34423e9c';
+const SPACE_ID = 'e8drzbikyrej';
+const ACCESS_TOKEN = '4e816bc09519ff8d67b0c20d95a0b2c6825d6b91d7e689c10254d0ed34423e9c';
 
-// const client = contentful.createClient({
-//   space: SPACE_ID,
-//   accessToken: ACCESS_TOKEN
-// });
+const client = contentful.createClient({
+  space: SPACE_ID,
+  accessToken: ACCESS_TOKEN
+});
 
 class CourseList extends Component {
   state = {
